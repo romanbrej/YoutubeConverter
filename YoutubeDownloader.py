@@ -71,7 +71,6 @@ label.pack(pady=50)
 
 entry = Entry(frame, width='80')
 entry.insert(0, 'Your Youtube Link')
-
 entry.pack()
 #entry.pack(padx='5', pady='120')
 entry.bind("<Button-1>", lambda event: clear_entry(event, entry))
